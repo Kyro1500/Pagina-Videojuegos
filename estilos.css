@@ -1,0 +1,507 @@
+
+
+@font-face{
+    font-family: 'BallparkWeiner';
+    src: url ('fonts/ballpark.eot');
+    src: url ('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+        url ('fonts/ballpark.wolf') format('wolf'),
+        url ('fonts/ballpark.tff') format('truetype'),
+        url ('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    
+    font-family: 'BallparkWeiner';
+    src: url ('fonts/ballpark.eot');
+    src: url ('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+        url ('fonts/ballpark.wolf') format('wolf'),
+        url ('fonts/ballpark.tff') format('truetype'),
+        url ('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body
+{
+    background: url(i1.jpg)no-repeat;
+   
+   
+background-color: black;
+    font-family: 'Trebuchet MS',Arial, sans-serif;
+    color:white;
+    opacity: 0.8;
+    
+}
+
+
+#main_wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: :uppercase;
+}
+#gg{
+    text-align: left;
+}
+/* Header */
+
+header
+{
+    background: url('images/line.png')repeat-x bottom;
+    
+}
+
+#main-title
+{
+    display: inline-block;
+}
+
+header h1 
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1 
+{
+    width: 4%;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+#tt{
+    color:black;
+}
+#ps{
+    
+    width: 80%;
+}
+#xb{
+    
+    width: 100%;
+}
+#pc{
+    width:  100%;
+}
+header h2
+{
+    font-family: Dayrom,serif;
+    font-size: 1.1em;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+/* Navegation */
+
+nav 
+{
+   
+    display: inline-block;
+    width: 740px;
+    text-align:right;
+}
+
+nav ul 
+{
+    text-align: right;
+    color: white;
+    list-style-image: none;
+    
+}
+
+nav li
+{
+    
+    display: inline-block;
+    margin-right: 15px;
+   
+    
+}
+li{
+    list-style-type: none;
+    position: relative;
+}
+li a{
+    display: inline-block;
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    background: black;
+    color: white;
+    opacity: .9;
+    
+}
+nav li:hover ul{
+    display: block;
+}
+nav a 
+{
+    font-size: 1.3em;
+    color: grey;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/* Banner */
+
+#Banner_image
+{
+    margin-top: 15px;
+    height: 231px;
+    z-index: -1;
+    border-radius: 5px;
+   background: url(gif3.gif); 
+    position:relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+   
+}
+
+#banner_description
+{
+    position: relative;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24);
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8eml;
+    
+}
+
+.red_buttom
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/red_background.png')repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.red_bottom img
+{
+    border: 0;
+}
+
+/* body */
+
+article,aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article 
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+.cat_icon
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p 
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    
+    position: relative;
+    width: 235px;
+    background-color: black;
+    box-shadow: 0px 2px 5px deeppink;;
+    border-radius: 5px ;
+    padding: 10px;
+    color: deeppink;
+    font-size: 19px;
+}
+aside h1, h2{
+    
+    text-align: center;
+    font-family:cursive; 
+}
+
+#arrow
+{
+    
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+#zozor_picture
+{
+    
+    text-align: center;
+}
+#raeve{
+    border 6px;
+    width: 80%;
+    
+}
+#zozor_picture
+{
+    border: 1px solid deeppink;
+}
+
+aside img 
+{
+    margin-right: 5px;
+}
+
+/* Footer */
+
+footer
+{
+    background: url('images/top.png')no-repeat top center, url('images/line.png')repeat-x top, url('images/shadow.png')repeat-x top;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+#tweet, #my_pictures, #my_friends
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tweet
+{
+    width: 28%;
+}
+
+#my_pictures
+{
+    width: 35%;
+}
+
+#my_friends
+{
+    
+    width: 31%;
+}
+
+#my_pictures img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#my_friends ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top:0;
+    width: 48;
+    list-style-image: url('images/external_link.png');
+    padding-left: 2px;
+}
+
+#my_friends a
+{
+    text-decoration: none;
+    color: gray;
+}
+#my_friends a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+
+
+
+.old_ie #main_title, .old_ie #logo, .old_ei header h1, .old_ie nav, .old_ei nav li, .old_ei .red bottom, .old_ei article, .old_ei aside, .old_ei #my_pictures, .old_ei #my_friends, .old_ei #my_friends ul
+{
+    display: inline;
+    zoom: 1;
+}
+
+
+
+.old_ei section h1, ie8 section h1
+{
+    font-size: 1.1em;
+}
+
+.old_ie footer div, .ie8 footer div 
+{
+    margin-top: 30px;
+    background: url('images/line.png') repeat-x top
+}
+#img{
+    transition: transform 0.3s ease-in-out 0.1;
+    
+    width: 40%;
+}
+#img:hover{
+     transform: scale(1.4);
+}
+#cassie{
+    width: 100px;
+    height: 100px;
+}
+#evie{
+    width: 100px;
+    height: 100px;
+}
+#io{
+    width: 100px;
+    height: 100px;
+}
+#maeve{
+    width: 100px;
+    height: 100px;
+}
+#termi{
+    width: 100px;
+    height: 100px;
+}
+#tor{
+    width: 100px;
+    height: 100px;
+}
+#pala{
+    width: 200px;
+    height: 100px;
+}
+#raev{
+    border 6px;
+    width: 80%;
+    height: 150px;
+}
+#Banner_imag
+{
+    margin-top: 15px;
+    height: 231px;
+    z-index: -1;
+    border-radius: 5px;
+   background: url(Campeones/Paladins.gif)no-repeat;
+    background-size: 1000px 250px;;
+    position:relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+   
+}
+#Banner_image2
+{
+    margin-top: 15px;
+    height: 231px;
+    z-index: -1;
+    border-radius: 5px;
+   background: url(Campeones/consolas.gif)no-repeat;
+    background-size: 1000px 250px;;
+    position:relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+   
+}
+#video{
+    text-align: center;
+    padding-left: 175px;
+}
+h3{
+    text-align: center;
+    padding-left: 270px;
+}
+#ge1{
+    width: 100%;
+    text-align: justify;
+    
+}
+#Banner_imagens
+{
+    margin-top: 15px;
+    height: 231px;
+    z-index: -1;
+    border-radius: 5px;
+   background: url(bb.gif)no-repeat;
+    background-size: 1000px 250px;;
+    position:relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+   
+}
+#Banner_imagens2
+{
+    margin-top: 15px;
+    height: 231px;
+    z-index: -1;
+    border-radius: 5px;
+   background: url(genro/g1.gif)no-repeat;
+    background-size: 1000px 250px;;
+    position:relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+   
+}
+#Banner_imagens3
+{
+    margin-top: 15px;
+    height: 231px;
+    z-index: -1;
+    border-radius: 5px;
+   background: url(genro/giphy.gif)no-repeat;
+    background-size: 1000px 250px;;
+    position:relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+   
+}
+#Banner_imagens4
+{
+    margin-top: 15px;
+    height: 231px;
+    z-index: -1;
+    border-radius: 5px;
+   background: url(genro/h2.gif)no-repeat;
+    background-size: 1000px 250px;;
+    position:relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+   
+}
